@@ -20,3 +20,4 @@ Gestionar los participantes de un sorteo en una publicación de Instagram.
 
 Utilización de API YouTube Data V3.
 Utilización de API Graph de Instagram.
+Utilización del protocolo OAuth 2.0.
