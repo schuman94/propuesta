@@ -327,7 +327,7 @@
 
 | **R37**     | **Laravel Breeze**         |
 | --------------: | :------------------- |
-| **Descripción** | Implementar un sistema de auntenticación con Laravel Breeze.             |
+| **Descripción** | Implementar un sistema de autenticación con Laravel Breeze.             |
 | **Prioridad**   | Importante           |
 | **Tipo**        | Técnico                |
 | **Complejidad** | Fácil         |
@@ -442,7 +442,7 @@
 | **Entrega**     | v1             |
 
 
-| **R50**     | **Mostrar datos de publicación de Youtube**         |
+| **R50**     | **Mostrar datos de publicación de YouTube**         |
 | --------------: | :------------------- |
 | **Descripción** | La aplicación mostrará los siguientes datos de un video o Short de YouTube:  - Título del video. - Nombre del canal. - Miniatura. - Número de comentarios. - Número de visualizaciones. - Número de Likes. - Fecha de publicación.             |
 | **Prioridad**   | Importante           |
@@ -795,7 +795,7 @@
 
 | **R89**     | **Google OAuth 2.0**         |
 | --------------: | :------------------- |
-| **Descripción** | Implementar autenticación con Google Oauth 2.0 mediante Laravel Socialite.             |
+| **Descripción** | Implementar autenticación con Google OAuth 2.0 mediante Laravel Socialite.             |
 | **Prioridad**   | Opcional           |
 | **Tipo**        | Técnico                |
 | **Complejidad** | Difícil         |
@@ -865,7 +865,7 @@
 | (**R47**) Página de inicio | Importante | Funcional | Fácil | v1 | 
 | (**R48**) Validación de URL de publicaciones | Importante | Funcional | Media | v1 | 
 | (**R49**) Errores en la API de YouTube | Importante | Técnico | Media | v1 | 
-| (**R50**) Mostrar datos de publicación de Youtube | Importante | Funcional | Fácil | v1 | 
+| (**R50**) Mostrar datos de publicación de YouTube | Importante | Funcional | Fácil | v1 | 
 | (**R51**) Aviso de inicio de sesión | Importante | Funcional | Fácil | v1 | 
 | (**R52**) Carga de comentarios | Importante | Funcional | Media | v1 | 
 | (**R53**) Clase sorteo | Importante | Técnico | Media | v1 | 
