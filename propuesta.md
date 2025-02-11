@@ -8,16 +8,18 @@ Aplicación web que permite a los creadores de contenido de redes sociales reali
 
 ## Funcionalidad principal de la aplicación
 
-El usuario podrá realizar un sorteo mediante la carga de todos los comentarios de una publicación y la selección de un ganador de forma aleatoria. Las redes sociales con las que podrá conectar la aplicación son YouTube e Instagram.
+El usuario podrá realizar un sorteo mediante la carga de todos los comentarios de una publicación y la selección de un ganador de forma totalmente aleatoria o aplicando diversos filtros.
+Las redes sociales con las que podrá conectar la aplicación son YouTube e Instagram.
 
 ## Objetivos generales
 
-Gestionar los sorteos de un usuario.
-Gestionar los participantes de un sorteo en una publicación de YouTube.
-Gestionar los participantes de un sorteo en una publicación de Instagram.
+* Gestionar los sorteos de un usuario.
+* Gestionar los participantes y ganadores de un sorteo en una publicación de YouTube.
+* Gestionar los participantes y ganadores de un sorteo en una publicación de Instagram.
 
 # Elemento de innovación
 
-Utilización de API YouTube Data V3.
-Utilización de API Graph de Instagram.
-Utilización del protocolo OAuth 2.0.
+* Utilización de API YouTube Data V3.
+* Utilización de API Graph de Instagram.
+* Utilización del protocolo OAuth 2.0.
+* Despliegue en un servidor con dominio público y certificado SSL.

@@ -145,9 +145,9 @@
 | **Entrega**     | v1             |
 
 
-| **R17**     | **Alpine.js**         |
+| **R17**     | **React**         |
 | --------------: | :------------------- |
-| **Descripción** | Uso de la librería Alpine.js.             |
+| **Descripción** | Uso de React             |
 | **Prioridad**   | Mínimo           |
 | **Tipo**        | Técnico                |
 | **Complejidad** | Fácil         |
@@ -325,6 +325,492 @@
 | **Entrega**     | v1             |
 
 
+| **R37**     | **Laravel Breeze**         |
+| --------------: | :------------------- |
+| **Descripción** | Implementar un sistema de auntenticación con Laravel Breeze.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R38**     | **Roles de usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | Los usuarios de la aplicación pueden ser admin o user.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R39**     | **Registro de usuarios**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá registrarse con un correo y contraseña.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R40**     | **Inicio de sesión**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá iniciar sesión con su correo y contraseña.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R41**     | **Configuración de cuenta de usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá modificar su información personal, cambiar su contraseña y gestionar sus redes sociales vinculadas.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R42**     | **Configurar Google Cloud Console**         |
+| --------------: | :------------------- |
+| **Descripción** | Crear un proyecto en Google Cloud Console y habilitar el uso de la API YouTube Data V3.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R43**     | **API Key de Google**         |
+| --------------: | :------------------- |
+| **Descripción** | Obtener una API Key en Google Cloud Console y almacenarla como variable de entorno en Laravel.              |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R44**     | **Implementar uso de API YouTube Data V3**         |
+| --------------: | :------------------- |
+| **Descripción** | Implementar el uso de la API YouTube Data V3 para obtener los datos de una publicación.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R45**     | **Barra de navegación principal**         |
+| --------------: | :------------------- |
+| **Descripción** | La página contará con una barra de navegación fija en la parte superior, accesible en todas las páginas. Tendrá las siguientes opciones:  - Inicio (sorteo) - Sorteo manual - Descargar miniatura de YouTube - Menú desplegable para el usuario. Si no ha iniciado sesión aparecerán los botones "Iniciar sesión" y "Registrarse".             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R46**     | **Menú desplegable para el usuario**         |
+| --------------: | :------------------- |
+| **Descripción** | El Menú desplegable para el usuario tendrá las opciones "Mi perfil", "Historial de sorteos" y "Cerrar sesión".             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R47**     | **Página de inicio**         |
+| --------------: | :------------------- |
+| **Descripción** | En la página de inicio, el usuario podrá ingresar la URL de la publicación de interés.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R48**     | **Validación de URL de publicaciones**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación validará la URL de la publicación introducida por el usuario y determinará a qué red social pertenece. La aplicación seleccionará la API necesaria para acceder a los datos de la red social.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R49**     | **Errores en la API de YouTube**         |
+| --------------: | :------------------- |
+| **Descripción** | Implementar manejo de errores cuando la API de YouTube no responda.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R50**     | **Mostrar datos de publicación de Youtube**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación mostrará los siguientes datos de un video o Short de YouTube:  - Título del video. - Nombre del canal. - Miniatura. - Número de comentarios. - Número de visualizaciones. - Número de Likes. - Fecha de publicación.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R51**     | **Aviso de inicio de sesión**         |
+| --------------: | :------------------- |
+| **Descripción** | Al pulsar "Cargar comentarios", la aplicación verificará si el usuario ha iniciado sesión. Si no, se le pedirá iniciar sesión o registrarse.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R52**     | **Carga de comentarios**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá cargar todos los comentarios de una publicación una vez mostrados sus datos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R53**     | **Clase sorteo**         |
+| --------------: | :------------------- |
+| **Descripción** | Implementar la clase Sorteo y su tabla correspondiente en la base de datos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R54**     | **Opciones de sorteo**         |
+| --------------: | :------------------- |
+| **Descripción** | Cuando un usuario cargue todos los comentarios de una publicación, aparecerá un menú con opciones para el sorteo.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R55**     | **Número de ganadores**         |
+| --------------: | :------------------- |
+| **Descripción** | En las opciones de sorteo, el usuario podrá seleccionar el número de ganadores.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R56**     | **Número de suplentes**         |
+| --------------: | :------------------- |
+| **Descripción** | En las opciones de sorteo, el usuario podrá seleccionar el número de suplentes.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R57**     | **Filtro de duplicados**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá seleccionar la opción para filtrar comentarios duplicados.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R58**     | **Filtro de participantes únicos**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá seleccionar la opción para quedarse con un único comentario por participante.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R59**     | **Filtro por #Hashtag**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá seleccionar la opción filtrar comentarios que contengan un #Hashtag.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R60**     | **Excluir participantes**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá indicar el nombre de los participantes que desea excluir del sorteo.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R61**     | **Añadir participantes extra**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá añadir una lista de participantes manualmente que también serán considerados en el sorteo.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R62**     | **Confirmación de las opciones**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá confirmar las opciones indicadas mediante un botón.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R63**     | **Realizar sorteo**         |
+| --------------: | :------------------- |
+| **Descripción** | Cuando el usuario pulsa el botón "Comenzar" se anuncian los gandores entre los participantes teniendo en cuenta las opciones confirmadas.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R64**     | **Almacenar sorteo**         |
+| --------------: | :------------------- |
+| **Descripción** | Una vez anunciado los ganadores, la información del sorteo se guardará en la base de datos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R65**     | **Anuncio de ganadores**         |
+| --------------: | :------------------- |
+| **Descripción** | Desde el anuncio de los ganadores se podrá acceder al perfil de los mismos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R66**     | **Consultar historial de sorteos**         |
+| --------------: | :------------------- |
+| **Descripción** | En dashboard se podrá consultar el historial de sorteos realizados.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v1             |
+
+
+| **R67**     | **Consultar sorteo**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá consultar los datos de un sorteo realizado. Los datos son los siguientes:  - Fecha de realización del sorteo. - Ganadores. - Suplentes. - Miniatura de la publicación. - URL de la publicación. - Número de participantes.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v1             |
+
+
+| **R68**     | **Administración de usuarios y sorteos**         |
+| --------------: | :------------------- |
+| **Descripción** | Los administradores podrán acceder a un panel de administración en donde podrán consultar los datos de los usuarios y los sorteos.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v2             |
+
+
+| **R69**     | **Despliegue en un servidor público**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación debe estar desplegada en un servidor accesible públicamente con su propio dominio y certificado SSL, utilizando una infraestructura segura. Esto es necesario para que la autenticación OAuth 2.0 de Google e Instagram funcione correctamente, ya que ambas plataformas requieren un dominio público con HTTPS para gestionar los redireccionamientos de autenticación.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v2             |
+
+
+| **R70**     | **Configuración en Meta for Developers**         |
+| --------------: | :------------------- |
+| **Descripción** | Registrar la aplicación en Meta for Developers, habilitar la API Graph de Instagram y asociarla a una cuenta de empresa o creador.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v2             |
+
+
+| **R71**     | **Definir credenciales de API Graph de Instagram**         |
+| --------------: | :------------------- |
+| **Descripción** | Obtener credenciales en Meta y almacenarlas como variables de entorno en Laravel.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R72**     | **Instagram Oauth 2.0**         |
+| --------------: | :------------------- |
+| **Descripción** | Implementar OAuth 2.0 para autenticar una cuenta de Instagram y obtener un token de acceso para el usuario.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v2             |
+
+
+| **R73**     | **Almacenar el token de acceso a Instagram**         |
+| --------------: | :------------------- |
+| **Descripción** | El token de acceso a Instagram se almacenará en la base de datos y estará asociado al usuario autenticado.              |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R74**     | **Redirección OAuth para Instagram**         |
+| --------------: | :------------------- |
+| **Descripción** | Configurar en Meta y Laravel la redirección tras la autenticación en Instagram.              |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Media         |
+| **Entrega**     | v2             |
+
+
+| **R75**     | **Vincular cuenta de Instagram**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá vincular su cuenta de Instagram con la aplicación. La cuenta debe ser de empresa o de creador.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v2             |
+
+
+| **R76**     | **Verificar validez del Token de acceso a Instagram**         |
+| --------------: | :------------------- |
+| **Descripción** | Antes de cada solicitud a la API de Instagram, comprobar si el token de acceso es válido. Si el token no es válido o ha expirado, se le pedirá al usuario vincular de nuevo su cuenta de Instagram con la aplicación.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v2             |
+
+
+| **R77**     | **Implementar uso de API Graph de Instagram**         |
+| --------------: | :------------------- |
+| **Descripción** | Implementar el uso de la API Graph de Instagram para obtener los datos de una publicación.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R78**     | **Arquitectura escalable para nuevas redes sociales**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación debe estar diseñada con una arquitectura modular que permita la integración eficiente de nuevas redes sociales en el futuro, además de YouTube e Instagram. Esto incluye la creación de una capa de abstracción para gestionar diferentes APIs de redes sociales.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R79**     | **Errores en la API de Instagram**         |
+| --------------: | :------------------- |
+| **Descripción** | Implementar manejo de errores cuando la API de Instagram no responda o el usuario no tenga permisos suficientes.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R80**     | **Aviso de vinculación de cuenta de Instagram**         |
+| --------------: | :------------------- |
+| **Descripción** | Para mostrar los datos de una publicación de Instagram, se requerirá previamente que el usuario vincule una cuenta.             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R81**     | **Mostrar datos de publicación de Instagram**         |
+| --------------: | :------------------- |
+| **Descripción** | La aplicación mostrará los siguientes datos de una publicación de Instagram:  - Usuario. - Miniatura. - Número de comentarios. - Número de "me gusta". - Fecha de publicación. - Número de visualizaciones (en el caso de Reels).             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R82**     | **Límite de la API**         |
+| --------------: | :------------------- |
+| **Descripción** | Implementar una estrategia para gestionar los límites de las APIs             |
+| **Prioridad**   | Importante           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R83**     | **Ajustes de cuenta regresiva**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá indicar en las opciones del sorteo el número de segundos de una cuenta regresiva antes de anunciar a los ganadores. El rango permitido es de 3 a 15 segundos.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R84**     | **Animación de cuenta regresiva**         |
+| --------------: | :------------------- |
+| **Descripción** | La cuenta regresiva se mostrará con una animación implementada mediante CSS y JavaScript.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R85**     | **Sorteo manual**         |
+| --------------: | :------------------- |
+| **Descripción** | En la sección sorteo manual el usuario podrá introducir una lista de participantes y realizar un sorteo.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R86**     | **Opciones de sorteo manual**         |
+| --------------: | :------------------- |
+| **Descripción** | En un sorteo manual, el usuario podrá elegir el número de ganadores y de suplentes y cuenta atrás.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R87**     | **Certificado de sorteo**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá obtener un certificado con los resultados de un sorteo que podrá consultarse públicamente a través de una URL.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Media         |
+| **Entrega**     | v3             |
+
+
+| **R88**     | **Obtener miniatura de YouTube**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá obtener la miniatura de un video de YouTube a partir de su URL.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
+| **R89**     | **Google OAuth 2.0**         |
+| --------------: | :------------------- |
+| **Descripción** | Implementar autenticación con Google Oauth 2.0 mediante Laravel Socialite.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Técnico                |
+| **Complejidad** | Difícil         |
+| **Entrega**     | v3             |
+
+
+| **R90**     | **Inicio de sesión con cuenta de Google**         |
+| --------------: | :------------------- |
+| **Descripción** | El usuario podrá iniciar sesión con su cuenta de Google.             |
+| **Prioridad**   | Opcional           |
+| **Tipo**        | Funcional                |
+| **Complejidad** | Fácil         |
+| **Entrega**     | v3             |
+
+
 
 ## Cuadro resumen
 
@@ -346,7 +832,7 @@
 | (**R14**) Manejo de eventos | Mínimo | Técnico | Fácil | v1 | 
 | (**R15**) DOM | Mínimo | Técnico | Fácil | v1 | 
 | (**R16**) Almacenamiento en el lado del cliente | Mínimo | Técnico | Fácil | v1 | 
-| (**R17**) Alpine.js | Mínimo | Técnico | Fácil | v1 | 
+| (**R17**) React | Mínimo | Técnico | Fácil | v1 | 
 | (**R18**) Plugin no trabajado en clase | Mínimo | Técnico | Fácil | v1 | 
 | (**R19**) Utilización de AJAX | Mínimo | Técnico | Fácil | v1 | 
 | (**R20**) ECMAScript2015 (ES6) | Mínimo | Técnico | Fácil | v1 | 
@@ -366,3 +852,57 @@
 | (**R34**) Varios navegadores | Mínimo | Técnico | Fácil | v1 | 
 | (**R35**) Despliegue en un Host | Mínimo | Técnico | Fácil | v1 | 
 | (**R36**) Despliegue en un servidor local | Mínimo | Técnico | Fácil | v1 | 
+| (**R37**) Laravel Breeze | Importante | Técnico | Fácil | v1 | 
+| (**R38**) Roles de usuario | Importante | Técnico | Media | v1 | 
+| (**R39**) Registro de usuarios | Importante | Funcional | Fácil | v1 | 
+| (**R40**) Inicio de sesión | Importante | Funcional | Fácil | v1 | 
+| (**R41**) Configuración de cuenta de usuario | Importante | Funcional | Media | v1 | 
+| (**R42**) Configurar Google Cloud Console | Importante | Técnico | Media | v1 | 
+| (**R43**) API Key de Google | Importante | Técnico | Fácil | v1 | 
+| (**R44**) Implementar uso de API YouTube Data V3 | Importante | Técnico | Media | v1 | 
+| (**R45**) Barra de navegación principal | Importante | Funcional | Fácil | v1 | 
+| (**R46**) Menú desplegable para el usuario | Importante | Funcional | Fácil | v1 | 
+| (**R47**) Página de inicio | Importante | Funcional | Fácil | v1 | 
+| (**R48**) Validación de URL de publicaciones | Importante | Funcional | Media | v1 | 
+| (**R49**) Errores en la API de YouTube | Importante | Técnico | Media | v1 | 
+| (**R50**) Mostrar datos de publicación de Youtube | Importante | Funcional | Fácil | v1 | 
+| (**R51**) Aviso de inicio de sesión | Importante | Funcional | Fácil | v1 | 
+| (**R52**) Carga de comentarios | Importante | Funcional | Media | v1 | 
+| (**R53**) Clase sorteo | Importante | Técnico | Media | v1 | 
+| (**R54**) Opciones de sorteo | Importante | Funcional | Fácil | v1 | 
+| (**R55**) Número de ganadores | Importante | Funcional | Fácil | v1 | 
+| (**R56**) Número de suplentes | Importante | Funcional | Fácil | v1 | 
+| (**R57**) Filtro de duplicados | Importante | Funcional | Fácil | v1 | 
+| (**R58**) Filtro de participantes únicos | Importante | Funcional | Fácil | v1 | 
+| (**R59**) Filtro por #Hashtag | Importante | Funcional | Fácil | v1 | 
+| (**R60**) Excluir participantes | Importante | Funcional | Fácil | v1 | 
+| (**R61**) Añadir participantes extra | Importante | Funcional | Fácil | v1 | 
+| (**R62**) Confirmación de las opciones | Importante | Funcional | Fácil | v1 | 
+| (**R63**) Realizar sorteo | Importante | Funcional | Fácil | v1 | 
+| (**R64**) Almacenar sorteo | Importante | Técnico | Fácil | v1 | 
+| (**R65**) Anuncio de ganadores | Importante | Funcional | Fácil | v1 | 
+| (**R66**) Consultar historial de sorteos | Importante | Funcional | Media | v1 | 
+| (**R67**) Consultar sorteo | Importante | Funcional | Fácil | v1 | 
+| (**R68**) Administración de usuarios y sorteos | Importante | Funcional | Difícil | v2 | 
+| (**R69**) Despliegue en un servidor público | Importante | Técnico | Difícil | v2 | 
+| (**R70**) Configuración en Meta for Developers | Importante | Técnico | Difícil | v2 | 
+| (**R71**) Definir credenciales de API Graph de Instagram | Importante | Técnico | Media | v2 | 
+| (**R72**) Instagram Oauth 2.0 | Importante | Técnico | Difícil | v2 | 
+| (**R73**) Almacenar el token de acceso a Instagram | Importante | Técnico | Media | v2 | 
+| (**R74**) Redirección OAuth para Instagram | Importante | Técnico | Media | v2 | 
+| (**R75**) Vincular cuenta de Instagram | Importante | Funcional | Difícil | v2 | 
+| (**R76**) Verificar validez del Token de acceso a Instagram | Importante | Funcional | Difícil | v2 | 
+| (**R77**) Implementar uso de API Graph de Instagram | Importante | Técnico | Difícil | v3 | 
+| (**R78**) Arquitectura escalable para nuevas redes sociales | Importante | Técnico | Difícil | v3 | 
+| (**R79**) Errores en la API de Instagram | Importante | Técnico | Media | v3 | 
+| (**R80**) Aviso de vinculación de cuenta de Instagram | Importante | Funcional | Fácil | v3 | 
+| (**R81**) Mostrar datos de publicación de Instagram | Importante | Funcional | Fácil | v3 | 
+| (**R82**) Límite de la API | Importante | Técnico | Difícil | v3 | 
+| (**R83**) Ajustes de cuenta regresiva | Opcional | Funcional | Fácil | v3 | 
+| (**R84**) Animación de cuenta regresiva | Opcional | Funcional | Difícil | v3 | 
+| (**R85**) Sorteo manual | Opcional | Funcional | Fácil | v3 | 
+| (**R86**) Opciones de sorteo manual | Opcional | Funcional | Fácil | v3 | 
+| (**R87**) Certificado de sorteo | Opcional | Funcional | Media | v3 | 
+| (**R88**) Obtener miniatura de YouTube | Opcional | Funcional | Fácil | v3 | 
+| (**R89**) Google OAuth 2.0 | Opcional | Técnico | Difícil | v3 | 
+| (**R90**) Inicio de sesión con cuenta de Google | Opcional | Funcional | Fácil | v3 | 
