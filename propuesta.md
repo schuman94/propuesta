@@ -13,6 +13,7 @@ Las redes sociales con las que podrá conectar la aplicación son YouTube e Inst
 
 ## Objetivos generales
 
+* Gestionar las cuentas de usuario.
 * Gestionar los sorteos de un usuario.
 * Gestionar los participantes y ganadores de un sorteo en una publicación de YouTube.
 * Gestionar los participantes y ganadores de un sorteo en una publicación de Instagram.
